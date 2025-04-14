@@ -1,3 +1,17 @@
+# Unmaintained.  
+
+Use the `glorp` group in the baseline here: https://github.com/pharo-rdbms/Pharo-SQLite3
+
+```
+Metacello new
+  repository: 'github://pharo-rdbms/Pharo-SQLite3/src';
+  baseline: 'SQLite3';
+  load: #('glorp')
+
+```
+
+
+
 # Glorp SQLite integration for Pharo
 
 This is the SQLite driver for Glorp for Pharo. For more information on Glorp, see [pharo-rdbms/glorp](https://github.com/pharo-rdbms/glorp).
